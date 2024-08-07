@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Ignore all files in specific folders but not the folders themselves or their subfolders
+data/*
+!data/
+!data/**/
+
+logs/*
+!logs/
+!logs/**/
+
+tool/*
+!tool/
+!tool/**/
+
+trackers/*
+!trackers/
+!trackers/**/
+
+# Only allow .R files in the R folder
+R/*
+!R/*.R
